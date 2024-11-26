@@ -1,0 +1,139 @@
+body {
+  background-color: #f0f2f5;
+  margin-top: 80px;
+}
+#fileInput {
+  display: none;
+}
+.profile-card {
+  padding: 40px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: white;
+}
+.profile-body img {
+  border-radius: 50%;
+}
+.profile-text h5 {
+  padding-top: 20px;
+}
+.profile-text p {
+  padding: 0px;
+  font-size: 14px;
+}
+.about-sec,
+.social-profile-sec {
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 15px;
+}
+.social-profile-sec {
+  margin-bottom: 50px;
+}
+.skill1 label {
+  margin-right: 10px;
+}
+
+.insta-link i {
+  position: absolute;
+  z-index: 2;
+  left: 6rem;
+  top: 55rem;
+}
+.facebook-link i {
+  position: absolute;
+  z-index: 2;
+  left: 6rem;
+  top: 57.7rem;
+}
+.twitter-link i {
+  position: absolute;
+  z-index: 2;
+  left: 6rem;
+  top: 60.4rem;
+}
+.insta-link input,
+.facebook-link input,
+.twitter-link input {
+  position: relative;
+  /* padding: 15px; */
+  padding-left: 55px;
+}
+.basic-info p {
+  font-size: 12px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.form-title p {
+  font-size: 12px;
+}
+.form-control,
+.form-select,
+.formname label,
+.username label,
+.birth-date label,
+.birth-year label,
+.birthmonth label,
+.gender label,
+.email label,
+.location label,
+.organization label,
+.website label,
+.phone-number label,
+.language label,
+.add-phoneno {
+  font-size: 14px;
+}
+.basic-info-form {
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.form-select option:hover {
+  background-color: #2bdd9b;
+  background-color: transparent;
+  color: #fff;
+}
+.add-phoneno span i {
+  font-size: 10px;
+  margin-right: 5px;
+}
+.add-phoneno span {
+  color: #4361a9;
+}
+.experience-form {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-bottom: 20px;
+}
+.cancel-button button {
+  border-color: #2cdd9b;
+  color: #2cdd9b;
+}
+.cancel-button button:hover {
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%) !important;
+  color: #fff !important;
+}
+.buttons button {
+  padding: 5px 15px;
+}
+.submit-button button {
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  color: #fff !important;
+}
+.submit-button button:hover {
+  border-color: black;
+}
+.buttons {
+  margin-bottom: 50px;
+}
